@@ -17,11 +17,12 @@ Most of them work on **Mac**, but it **may not work** if there is a part where t
 1. File I/O  
 2. Files and Directories
 3. Processes and Threads  
-4. Signals Inter-Process Communication
-5. Synchronization
-6. Sockets
-7. Programs
-8. Chatting server & client
+4. Signals 
+5. Inter-Process Communication
+6. Synchronization
+7. Sockets
+8. Programs
+9. Chatting server & client
 
 ## Contents
 
