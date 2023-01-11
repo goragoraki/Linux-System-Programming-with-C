@@ -44,7 +44,6 @@ Most of them work on **Mac**, but it **may not work** if there is a part where t
 ### 3. Processes and Threads
 * mysystem.c - The operation is the same as the "system" system call, and implemented using fork, execv, and waitpid system call.
 * tadd.c - Create two threads to find the sums of 1 to 50 and 51 to 100, respectively. After waiting for each thread to terminate, the main thread adds each sum and outputs them.
-* 
 * * *
 ### 4. Signals
 * alarm.c - Print "." every one seconds (using signal system call).
