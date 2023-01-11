@@ -61,6 +61,7 @@ Most of them work on **Mac**, but it **may not work** if there is a part where t
 * mymore.c - Works like ls -l | more (using dup).  
 * sipc1.c - Inter Process Communication with sipc2 using shared memory.   
 * sipc2.c - Inter Process Communication with sipc1 using shared memory.  
+* * *
 ### 6. Synchronization
 producer -> create data and put data in buffer.   
 consumer -> get data in buffer. 
@@ -90,7 +91,7 @@ server -> Keep receiving client requests and send data to client.
 * udps.c - udp server.
 * select.c - Server can received both tcp client and udp client.
 * hw2.c - After the connection is established, create process which handle it exclusively.
-* hw3.c - Change select.c to Muti-thread version
+* hw3.c - Change select.c to Muti-thread version.  
 * * *
 ### 8. Programs
 * del.c - delete one character in string. (using pointer).
@@ -100,7 +101,7 @@ server -> Keep receiving client requests and send data to client.
 * rpc.c - Receive number from app and calculate number(sum up to recevie number). Send number to app.  
 * * *
 ### 9. Chatting server & client
-Execute in local[chatc] : ./chatc "127.0.0.1"
+Execute chatc in local : ./chatc "127.0.0.1"
 * chats.c - Chatting server select version.
 * chatc.c - Chatting client muti-thread version.
 * * *
