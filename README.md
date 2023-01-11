@@ -23,7 +23,7 @@ Most of them work on **Mac**, but it **may not work** if there is a part where t
 7. Programs
 8. Chatting server & client
 
-* * *
+## Contents
 
 ### 1. File I/O  
 * mycp.c - Copy A file to B file (use open()).  
